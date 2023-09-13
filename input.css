@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.shaded-element {
+    transition: background-color 0.3s ease;
+  }
+
+ 
+  .shaded-element:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+  }
